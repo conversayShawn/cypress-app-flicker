@@ -1,0 +1,15 @@
+{
+  "name": "flicker",
+  "version": "1.0.0",
+  "description": "When navigating to a URL with a different superdomain than the baseUrl, the entire Cypress app unexpectedly restarts, causing the before hooks to run again. While it's expected for the browser to restart when no baseUrl is set, the Cypress app itself should not restart when navigating to a different superdomain.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "conversayShawn",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cypress": "^13.14.2"
+  }
+}
